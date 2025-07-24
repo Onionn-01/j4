@@ -8,7 +8,7 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/Onionn-01/j4.git'
             }
         }
-
+ 
         stage('Publish') {
             steps {
                 echo 'Copying workspace to C:\\myproject'
